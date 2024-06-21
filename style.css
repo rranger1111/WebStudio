@@ -1,0 +1,37 @@
+/*:root{
+    --white: #fff;
+    --text-color: violet;
+}*/
+
+
+/*a{
+    text-decoration: none;
+}*/
+
+/*ul{
+    list-style: none;
+}*/
+
+/**{
+    background-color: var(--white);
+    color: var(--text-color, black);
+}*/
+
+/*.header{
+    font-size: 14px;
+    line-height: 1.33;
+    text-transform: uppercase;
+}*/
+
+/*a[title]{
+    color: blue;
+}*/
+
+/*a[href="https://www.youtube.com/"]{
+    background-color: rgb(255, 0, 0);
+    background-color: rgba(0, 255, 0, 0.3);
+    background-color: rgba(80%, 10%, 10%, 50%);
+
+}*/
+
+
