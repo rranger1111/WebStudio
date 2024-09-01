@@ -8,8 +8,9 @@
     --adress-color: #757575;
     --down-section: #F5F4FA;
     --just-black: #000000;
-    --border-portgolio: #eee;
+    --border-portfolio: #eee;
     --border-header: #ECECEC;
+    --btn-text-color: #ffffff;
   }
 
   *{
@@ -48,7 +49,7 @@ body{
     background-color: var(--white);
 }
 
-.header_wrap{
+.header-wrap{
     display: flex;
     align-items: center;
     padding: 25px 0px;
@@ -56,6 +57,8 @@ body{
 
 .header-logo{
     color: var(--just-black);
+    margin-right: 60px;
+    margin-left: 70px;
 }
 
 .header-logo span{
@@ -64,7 +67,6 @@ body{
 
 .nav-header{
     display: flex;
-    justify-content: space-around;
     font-family: "Roboto", sans-serif;
 }
 
@@ -77,20 +79,21 @@ body{
 
 .header-item{
   
-  
-  
-  
 }
 
 .header-item-link{
     display: flex;
     justify-content: center;
- color: var(--nav-black);
+    color: var(--nav-black);
+}
+
+.header-item-link:hover{
+    color: var(--accent);
 }
 
 .header-contact{
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
     gap: 50px;
 }
 
@@ -98,28 +101,31 @@ align-items: center;
 
 }
 
+.header-contact-item-link1{
+    color: var(--adress-color);
+}
+
+.header-contact-item-link1:hover{
+    color: var(--accent);
+}
+
 .header-contact-item-link{
-color: var(--adress-color);
+    color: var(--adress-color);
 }
 
-
-
-.projects{
-
-}
-
-.team{
+.main{
 
 }
 
-a{
-text-decoration: none;
+.hero{
+
 }
 
-ul{
-list-style: none;
+.main-title{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
 }
-
 
 .btnhero{
     display: block;
@@ -129,7 +135,58 @@ list-style: none;
     font-weight: 700;
     line-height: 1.85px;
     background-color: var(--accent);
-    color: var(--white);
+    color: var(--btn-text-color);
+}
+
+.details{
+
+}
+
+.details-list{
+
+}
+
+.details-list-item{
+
+}
+
+.details-title{
+
+}
+
+.details-text{
+
+}
+
+.projects{
+
+}
+
+.title2{
+
+}
+
+.images{
+
+}
+
+.projects-img{
+
+}
+
+.team{
+
+}
+
+.team-img{
+
+}
+
+.title3{
+
+}
+
+.team-text{
 
 }
 
@@ -145,6 +202,18 @@ list-style: none;
     letter-spacing: 3;
 }
 
+.footer-list{
+
+}
+
+.footer-list-item{
+
+}
+
+.footer-list-item-link{
+
+}
+
 .footer-logo span{
-color: var(--accent);
+    color: var(--accent);
 }
